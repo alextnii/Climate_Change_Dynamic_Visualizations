@@ -55,11 +55,13 @@ The raw data was structured into separate files and needed significant preproces
 
 3. Visualization and Analysis
 Bokeh and Panel were employed for creating interactive visualizations, allowing users to manipulate the data on the fly. The visualizations included:
-- Temperature Line Chart: These charts illustrated temperature trends over time, making it easier to visualize the correlation between rising temperatures and increasing energy demands.
-- Temperature Box Plots: This visualization allowed users to compare the maximum and minimum temperatures across cities and see how they varied by month or year. The interactivity made it easy for users to filter cities and time periods and adjust the granularity of the data.
-- Both of these plots had the 'Select City' Widget as well as a 'Min Temp / Max Temp' Selector where the user can change the visualization based on a specific City and Min/Max Temp filter. The Temperature Box Plots also had a 'Select Month' Widget in addition.
+- Temperature Line Plot: These charts illustrated temperature trends over time.
+  - This plot made it easier to visualize the correlation between rising temperatures and increasing energy demands.
+- Temperature Box Plots: This visualization allowed users to compare the maximum and minimum temperatures across cities and see how they varied by month or year.
+  - The interactivity made it easy for users to filter cities and time periods and adjust the granularity of the data.
+- Both of these plots had the 'Select City' Widget, a 'Min Temp / Max Temp' selector where the user can change the visualization based on a specific City and Min/Max Temp filter, and a 'Year Range' slider where the user could control the bounds of the visualization, allowing it to effectively zoom in or out along the x-axis. The Temperature Box Plots also had a 'Select Month' Widget in addition. 
 
-![Temperature Line Chart and Box Plots ](images/)
+![Temperature Line Chart and Box Plots ](images/EPRI_Fa23_Screenshot_1.png)
 
 
 - Geospatial Visualizations (Map Plots): Using geographical data (latitude and longitude), we built maps to overlay temperature data with energy usage, allowing EPRI stakeholders to explore regional variations in energy consumption.
@@ -76,7 +78,7 @@ Bokeh and Panel were employed for creating interactive visualizations, allowing 
   - Color Scale: The color gradient represents percent changes by 2050, with red indicating an increase and blue indicating a decrease. The more intense the color, the greater the change. For example, deep red suggests a significant increase, and deep blue indicates a large decrease.
 - For these two plots, there is a widget that allows you to select the city.
 
-![Map plots, Percent Change box plots, and Heat maps](images/)
+![Map plots, Percent Change box plots, and Heat maps](images/EPRI_Fa23_Screenshot_2.png)
 
 
 ## Project Reflection
